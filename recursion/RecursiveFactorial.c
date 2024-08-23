@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/**
+ * Factorial
+ * f(n)에서 
+ * n >= 1 ==> n * f(n-1)
+ * n = 0 ==> 1
+ */
+
 int Factorial(int n)
 {
 	if (n == 0)
